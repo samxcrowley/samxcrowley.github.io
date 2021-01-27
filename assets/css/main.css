@@ -1792,11 +1792,10 @@ input, select, textarea {
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 0.9em;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			letter-spacing: 0em;
 			margin-bottom: 0;
-			text-transform: uppercase;
 		}
 
 		body.is-ie header.major > :first-child:after {
