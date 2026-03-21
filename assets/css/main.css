@@ -119,21 +119,13 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #dbd7ca;
 		font-family: "Figtree", "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-size: 14pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
-		line-height: 1.65;
+		line-height: 1.5;
 	}
 
 		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 14pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -141,10 +133,18 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
 			}
 
 		}
@@ -194,15 +194,15 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.25em;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.5em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.2em;
 	}
 
 	h4 {
@@ -2732,14 +2732,14 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
 			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
 			transition: transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease;
-			padding: 4em 4em 2em 4em ;
+			padding: 3em 3em 1.5em 3em ;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
-			min-height: 23em;
+			height: 30vh;
+			max-height: 30em;
+			min-height: 18em;
 			overflow: hidden;
 			position: relative;
 			width: 50%;
@@ -2851,10 +2851,10 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.tiles article {
-				padding: 4em 3em 2em 3em ;
-				height: 30vh;
-				max-height: 30em;
-				min-height: 20em;
+				padding: 3em 2.5em 1.5em 2.5em ;
+				height: 25vh;
+				max-height: 25em;
+				min-height: 16em;
 			}
 
 		}
@@ -3152,8 +3152,8 @@ input, select, textarea {
 		top: 0;
 		width: 80%;
 		z-index: 10000;
-		border-left: 1px solid rgba(192, 192, 220, 0.15);
-		border-right: 1px solid rgba(192, 192, 220, 0.15);
+		border-left: none;
+		border-right: none;
 	}
 
 		#header .logo {
@@ -3411,7 +3411,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 3em 0 0.5em 0 ;
+		padding: 2em 0 0.5em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3449,7 +3449,7 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 2.75em;
 		}
 
 		#banner > .inner {
@@ -3627,7 +3627,7 @@ input, select, textarea {
 			}
 
 			#main > * > .inner {
-				padding: 2em 0 1em 0 ;
+				padding: 1.5em 0 0.5em 0 ;
 				margin: 0 auto;
 				max-width: 65em;
 				width: calc(100% - 6em);
@@ -3774,11 +3774,11 @@ input, select, textarea {
 		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		padding-top: 2em;
-		max-width: 80%;
+		max-width: 65%;
 		margin: 0 auto;
 		background: #2a2a3d;
-		border-left: 1px solid rgba(192, 192, 220, 0.15);
-		border-right: 1px solid rgba(192, 192, 220, 0.15);
+		border-left: none;
+		border-right: none;
 	}
 
 		#wrapper.is-transitioning {
@@ -3786,7 +3786,7 @@ input, select, textarea {
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			padding: 2.5em 0 1.5em 0 ;
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
